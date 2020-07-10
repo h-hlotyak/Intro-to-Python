@@ -11,10 +11,13 @@ this is an activity for Hannah Hlotyak's (hannahhlotyak@gmail.com) intro to pyth
 #We will put our variables towards the top of our program here
 #While it doesn't necessarily matter where you put your variables, its common to put them towards the top of your program
 
-echo_num = 0
+echo_num = input("How many echoes would you like? ")
+echo_num = int(echo_num)
+
+message = input("What would you like the computer to echo? ")
 
 #Now lets write the code that will actually repeat the user input
 
 for num in range(echo_num):
-    pass
+    print(message)
     # ^^ delete this pass to start writing your code!
